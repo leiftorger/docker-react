@@ -27,4 +27,5 @@ jobs:
           region: eu-north-1
           #version_label: ${{ github.sha }}
           version_label: Sample Application
+          use_existing_version_if_available: true
           deployment_package: deploy.zip
