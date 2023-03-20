@@ -23,7 +23,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: docker-react
           environment_name: Dockerreact-env
-          existing_bucket_name: dockerreact-env.eba-kzxum2dm
+          existing_bucket_name: elasticbeanstalk-eu-north-1-924027193953
           region: eu-north-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
